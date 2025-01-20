@@ -11,7 +11,7 @@ struct DateLabel: View {
                 .font(.custom("\(Constants.fontName)-Regular", size: 8))
                 .foregroundColor(active ? .darkCyan : .black)
             Text(date.getDay())
-                .font(.custom("\(Constants.fontName)-Bold", size: 16))
+                .font(.custom("\(Constants.fontName)-Bold", size: 12))
                 .foregroundColor(.darkCyan)
         }
         .padding(8)
